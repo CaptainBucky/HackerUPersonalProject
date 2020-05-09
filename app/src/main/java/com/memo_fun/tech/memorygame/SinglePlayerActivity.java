@@ -8,29 +8,29 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 public class SinglePlayerActivity extends AppCompatActivity {
-    final String dogString = "DOG";
-    final String catString = "CAT";
-    final String eagleString = "EAGLE";
-    final String lionString = "LION";
-    final String lizardString = "LIZARD";
-    final String monkeyString = "MONKEY";
-    final String penguinString = "PENGUIN";
-    final String sharkString = "SHARK";
-    final String snakeString = "SNAKE";
-    final String tigerString = "TIGER";
-    final String octopusString ="OCTOPUS";
-    final String whaleString = "WHALE";
-    final String batString = "BAT";
-    final String squirrelString = "SQUIRREL";
-    final String spiderString = "SPIDER";
-    final String chickenString = "CHICKEN";
-    final String dolphinString = "DOLPHIN";
-    final String bearString = "BEAR";
-    final String wolfString = "WOLF";
+    final private String dogString = "DOG";
+    final private String catString = "CAT";
+    final private String eagleString = "EAGLE";
+    final private String lionString = "LION";
+    final private String lizardString = "LIZARD";
+    final private String monkeyString = "MONKEY";
+    final private String penguinString = "PENGUIN";
+    final private String sharkString = "SHARK";
+    final private String snakeString = "SNAKE";
+    final private String tigerString = "TIGER";
+    final private String octopusString ="OCTOPUS";
+    final private String whaleString = "WHALE";
+    final private String batString = "BAT";
+    final private String squirrelString = "SQUIRREL";
+    final private String spiderString = "SPIDER";
+    final private String chickenString = "CHICKEN";
+    final private String dolphinString = "DOLPHIN";
+    final private String bearString = "BEAR";
+    final private String wolfString = "WOLF";
 
 
-    ArrayList<Card> cardArrayList = new ArrayList<>(36);
-    ImageView[] imageViews = new ImageView[36];
+   private ArrayList<Card> cardArrayList = new ArrayList<>(36);
+    private ImageView[] imageViews = new ImageView[36];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
